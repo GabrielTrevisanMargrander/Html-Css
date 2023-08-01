@@ -1,0 +1,23 @@
+@charset "UTF-8" ;
+
+*{
+    padding: 0%;
+    margin: 0% ;
+
+}
+
+.menu{
+    text-align: ;
+}  
+
+header {
+    background-color: greenyellow;
+    padding: 20PX;
+    text-align: center;
+    color: white;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+}

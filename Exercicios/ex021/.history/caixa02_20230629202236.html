@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: dimgray;
+}
+
+header{
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+}
+
+main{
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px 0px;
+    box-shadow: 2px 2px 5px black;
+}
+
+main:hover{
+    border-radius: 5p;
+}
+
+nav{
+    background-color: black;
+    padding: 5px;
+}
+
+nav > a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    margin: 5px;
+    border: 1px solid salmon;
+    text-align: center;
+    box-shadow: 1.5px 1.5px 5px rgba(250, 247, 247, 0.212); /* sombreamento*/
+}
+
+nav > a:hover{
+    background-color: salmon;
+    border-radius: 15px;
+    transition: 1s;
+}
+
+article{
+    background-color: lightgray;
+    padding: 5px;
+}
+
+article > aside{
+    background-color: lightblue;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 4px;
+    margin: 2px;
+}
+
+footer p {
+    margin: 0;
+}
+
+</style>
+</head>
+<body>
+<header>  <!-- Header é o cabeçalho do site, evitar de usar uma div pra cada coisa, pois agr o html5 é semantico, tem uma tag pra separar cada parte.-->
+    
+    <h1>Meu site</h1>
+
+<nav>    <!-- nav é a navegação do site.-->
+    <a href="#"> Link</a>
+    <a href="#"> Link</a>
+    <a href="#"> Link</a>
+    <a href="#"> Link</a>
+    <a href="#"> Link</a>
+
+</nav>
+</header>
+<main> <!-- main é o conteudo do site.-->
+
+    <section id="assuntos">
+
+    </section>
+    <section id="noticias">
+
+    </section>
+    <article>
+        <h2>Titulo</h2> <!-- Titulo do artigo-->
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae placeat fugiat libero accusantium dolor aliquid, voluptas, mollitia ab perspiciatis autem adipisci perferendis dolore harum assumenda provident delectus debitis tempora. Beatae!</p> <!-- Artigo em si-->
+        <aside>Artigo escrito por José da Silva</aside> <!-- informação relacionada ao artigo-->
+    </article>
+
+
+</main>
+<footer> <!-- footer é o rodapé do site.-->
+    <p>Desenvolvido por Gabriel.</p>
+</footer>
+
+    
+</body>
+</html>

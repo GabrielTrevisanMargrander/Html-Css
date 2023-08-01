@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modewlo de caixas</title>
+</head>
+<style>
+
+    h1{
+        background-color: aquamarine;
+        height: 300px;
+        width: 300px;
+
+        border-width: 10px;
+        border-style: solid;
+        border-color:black ;
+
+        padding-left: 10px;
+        padding-top: 10px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+
+
+        margin-top: 20px; /* sempre configurar no sentido horario, primeiro o topo, depois direita, baixo e esquerda, o padding acima foi confugurado do modo errado. */
+        margin-right: 20px;
+        margin-bottom: 40px;
+        margin-left: 20px;
+
+        /* Para centralizar uma caixa, basta colocar o "margin: auto;" pois ele vai centralizar automaticamente, o texto dentro dessa caixa, basta colocar um "text-align: center ;"  */
+
+        outline-width: 10px;  /* outiline é fora da borda, é esse tracejado e ele fica dentro da margem, ele pode passar dela, porem nunca vai muda-la. */
+        outline-style: dashed;
+        outline-color: salmon;
+
+
+
+        /* Agora vai ser a msm coisa de cima porem simplificada.
+        
+        
+        h1{
+            background-color: aquamarine;
+        height: 300px;
+        width: 300px;
+
+        border: 10px (largura) solid (estilo) black (cor); "sempre nessa ordem"
+
+
+        padding: 10px (topo) 10px (direita) 10px (baixo) 10px (esquerda); "Sempre nessa ordem" (se todas as medidas forem iguais, que nem nesse exemplo, vc pode colocar o valor apenas uma vez.)
+
+
+        margin: 20px (topo) 20px (direita) 40px (baixo) 20px (esquerda); "Sempre nessa ordem" (Se vc colocar "auto" na margem da direita e esquerda, vc centraliza a caixa e ainda consegue ter um controle da margem do topo e baixo.)
+
+
+        outline: 10px (largura) dashed (estilo) salmon (cor); "sempre nessa ordem"
+
+
+
+
+        }
+        
+        
+        
+        
+        
+        
+        
+        
+        */
+
+    }
+
+    a{
+        border-width: 10px;
+        border-style: solid;
+        border-color: red;
+    }
+</style>
+<body>
+
+    <h1>Exemplos de caias box-level</h1>
+    <p>Parágrafos também são exemplos de box-level, mas os <a href="#">links são exemplos de caixas inline-level</a>. Vamos ver como isso tudo funciona.</p>
+    
+</body>
+</html>
